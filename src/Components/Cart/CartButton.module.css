@@ -1,0 +1,44 @@
+.button {
+  background-color: transparent;
+  border-color: #9679E7;
+  color: #9679E7;
+  padding: 0.5rem 1.5rem;
+  border: 0;
+  border-radius: 3px;
+  cursor: pointer;
+  }
+  
+  .button img{
+    width: 22px;
+    vertical-align: bottom;
+  }
+  .button:hover,
+  .button:active {
+    color: white;
+    background-color: transparent;
+    border: 0;
+  }
+  
+  .button span {
+    margin: 0 0.5rem;
+  }
+  
+  .badge {
+    background-color: #DBA492;
+    border-radius: 500%;
+    padding: 0px 8px;
+    color: white;
+    display: inline-block;
+  }
+
+  .button:hover .badge {
+    background-color: #9679E7;
+    color: white;
+  }
+
+
+  @media(max-width: 600px){
+    .button {
+      padding: 0.5rem 0.1rem;
+    }
+  }

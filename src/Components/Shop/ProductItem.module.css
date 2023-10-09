@@ -1,0 +1,79 @@
+.item h3 {
+  margin: 15px auto 0;
+  font-size: 16px;
+  color: #000000a8;
+  width: 215px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  direction: ltr;
+  }
+  
+  .item header {
+    align-items: baseline;
+  }
+  .item header img{
+   width: 100%;
+  }
+  .price {
+    border-radius: 30px;
+    padding: 0.15rem 1.5rem;
+    background-color: transparent;
+    color: #DBA492;
+    font-size: 16px;
+    width: 163px;
+    margin: auto;
+    font-weight: bold;
+  }
+  
+  .price span{
+    display: inline-block;
+    position: relative;
+    top: -4px;
+    font-size: 10px;
+  }
+
+  .discountText {
+    color: #3a3a3a78;
+    position: relative !important;
+    top:0px !important;
+  }
+  .item p {
+    color: #3a3a3a;
+    max-width: 300px;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    margin: 8px auto 15px;
+    font-size: 13px;
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  button {
+    font: inherit;
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 6px;
+    background-color: transparent;
+    color: #9679E7;
+    border: 1px solid #9679E7;
+    width: 100%;
+  }
+  
+  button:hover {
+    background-color: #9679E7;
+    border-color: #9679E7;
+    color: white;
+  }
+
+  button:active {
+    background-color: #DBA492;
+    border-color: #DBA492;
+    color: white;
+  }
